@@ -3,7 +3,7 @@ def generate_nonogram(d_i = 0.2, d_v = 0.3, d_h = 0.3, colums=5, rows = 5, sim_n
     '''
     generate fixed size nonograms
     
-    d_i = overall accept rate
+    d_i  = overall accept rate
     d_h = extra acceptrate if left cell is occupied.
     d_v = extra acceptrate if above cell is occupied.
     '''
